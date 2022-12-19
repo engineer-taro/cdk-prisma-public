@@ -31,7 +31,7 @@ export class VpcRds {
     const envName = props.envName;
     // DB Name
     const DB_CLUSTER_NAME = `${envName}-db-cluster`;
-    const DB_INSTANCE_NAME = `${envName}-db-cluster`;
+    const DB_INSTANCE_NAME = `${envName}-db-instance`;
 
     // Characters to exclude in passwords set for DB
     const EXCLUDE_CHARACTERS = ":/?#[]@!$&'()*+,;=%\"";

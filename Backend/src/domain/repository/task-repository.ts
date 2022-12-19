@@ -1,3 +1,3 @@
 export interface TaskRepository {
-  insert(text: string): void;
+  insert(text: string): string;
 }
